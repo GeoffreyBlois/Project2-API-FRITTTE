@@ -207,12 +207,12 @@ public class MostServicesTest {
         Assertions.assertFalse(actualResult);
     }
 
-    @Test
-    public void test_create_givenRepeatedChatInformation_throwsInvalidRequestException(){
-        Chat chat = new Chat("1",stu, "Mission Secrets","", "Bob");
-        when(mockChatDao.existsById(chat.getId())).thenReturn(true);
-
-        Assertions.assertThrows(InvalidRequestException.class, () -> { sut6.create(chat);});
-        verify(mockChatDao, times(0)).save(chat);
-    }
+//    @Test
+//    public void test_create_givenRepeatedChatInformation_throwsInvalidRequestException(){
+//        Chat chat = new Chat("1",stu, "Mission Secrets","", "Bob");
+//        when(mockChatDao.existsById(chat.getId())).thenReturn(true);
+//
+//        Assertions.assertThrows(InvalidRequestException.class, () -> { sut6.create(chat);});
+//        verify(mockChatDao, times(0)).save(chat);
+//    }
 }

@@ -5,21 +5,17 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class CCInitializer {
 
-    private long creditCardNumber;
+    private String creditCardNumber;
     private String creditCardName;
     private int cvv;
     private String expDate;
-    private int limit;
-    private Customer customerUsername;
+    private double limit;
+    private String customerUsername;
 
 }

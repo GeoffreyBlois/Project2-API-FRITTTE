@@ -1,9 +1,9 @@
 package com.revature.frittte.customer;
 
-import com.revature.frittte.food.Food;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,10 +17,6 @@ public class CustomerServlet {
     public CustomerServlet(CustomerService customerServices) {
         this.customerServices = customerServices;
     }
-
-
-
-
     @GetMapping("/welcome")
     public @ResponseBody String test(){
         return "Welcome to the wonderful world of Frittte";
