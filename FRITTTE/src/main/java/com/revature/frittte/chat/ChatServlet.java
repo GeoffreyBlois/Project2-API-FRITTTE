@@ -1,8 +1,6 @@
 package com.revature.frittte.chat;
 
 import com.revature.frittte.customer.Customer;
-import com.revature.frittte.message.Message;
-import com.revature.frittte.message.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -47,8 +45,6 @@ public class ChatServlet {
 
         Chat newChat = new Chat();
         Customer authCustomer = (Customer) req.getAttribute("authCustomer");
-        //CCInitializer initCC = mapper.readValue(req.getInputStream(), CCInitializer.class); // from JSON to Java Object (Pokemon)
-        //Message id = messageService.readById(initChat.getId());
         newChat.setId(initChat.getId());
         newChat.setChatAdmin(authCustomer);
         newChat.setTitle(initChat.getTitle());
