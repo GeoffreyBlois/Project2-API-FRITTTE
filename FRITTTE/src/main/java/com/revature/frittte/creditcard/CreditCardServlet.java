@@ -2,6 +2,7 @@ package com.revature.frittte.creditcard;
 
 import com.revature.frittte.customer.Customer;
 import com.revature.frittte.customer.CustomerService;
+import com.revature.frittte.food.Food;
 import com.revature.frittte.util.web.dto.CCInitializer;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -52,6 +53,12 @@ public class CreditCardServlet {
             return new ResponseEntity<>(HttpStatus.ALREADY_REPORTED);
         }
 
+    }
+
+    @PutMapping("/updateLimit")
+    public ResponseEntity<CreditCard> updateFoodItem(@RequestBody CreditCard creditCard) {
+        CreditCard updateCreditCard= creditCardService.update(creditCard);
+        return new ResponseEntity<>(updateCreditCard, HttpStatus.OK);
     }
 
     @CrossOrigin(value = "http://localhost:3000", allowCredentials = "true")

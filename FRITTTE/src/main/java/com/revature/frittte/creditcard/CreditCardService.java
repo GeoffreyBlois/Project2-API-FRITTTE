@@ -2,6 +2,7 @@ package com.revature.frittte.creditcard;
 
 import com.revature.frittte.exception.InvalidRequestException;
 import com.revature.frittte.exception.ResourcePersistanceException;
+import com.revature.frittte.food.Food;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -43,6 +44,12 @@ public class CreditCardService {
         }
         return persistedCreditCard;
     }
+
+    public CreditCard update(CreditCard updateCreditCard){
+        creditCardDao.save(updateCreditCard);
+        return updateCreditCard;
+    }
+
 
     public boolean validateInput(CreditCard newCreditCard){
         if(newCreditCard == null ) return false;
