@@ -11,7 +11,7 @@ spring:
     name:FrittteProject
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: ${BDURL}
+    url: ${DBURL}
     username: ${DBUSER}
     password: ${DBPASS}
   jpa:
