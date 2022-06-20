@@ -21,6 +21,11 @@ public class OrderServices {
         return persistedOrder;
     }
 
+    public OrderData update(OrderData updatedOrder) {
+        orderDao.save(updatedOrder);
+        return updatedOrder;
+    }
+
 
     public boolean validateInput(OrderData orderData) {
         if(orderData == null) return false;
