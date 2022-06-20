@@ -10,17 +10,9 @@ FRITTTE is a website where users can shop for groceries. When users are search f
  - Add a product
  - update a product
  - delete products
- - Add an account
- - update an account
- - delete an account
- - ban a user from the public chat
- - mute a user from the public chat
- - clear the public chat
- - delete a customer credit card
- - delete a customer's order
+ - I want to leverage an exturnal API that allow me to search any item and add it to our database
 ## As User
  - Register an account
- - Add a product to my shopping cart
  - Update an account
  - Delete an account
  - Add a credit card
@@ -28,26 +20,11 @@ FRITTTE is a website where users can shop for groceries. When users are search f
  - Delete a credit card to be removed from my account
  - Make an order for a specific menu item
  - Add a comment to the order to request a change.
- - Add my address to my account
- - Update my address to my account
- - delete my address to my account
  - Pay off my balance
- - I want to contact customer support for help
- - I want to chat with other shoppers
- - View food and non-food item without logging in or sign up.
+ - View food without logging in or sign up.
  - I want to be able to search for a certain item
  - I want view all of my orders
  - I want to view orders by the date they were ordered
- - I want to delete any of my orders
- - I want to delete my pervious chat
- - I want to hide the public chat
- - Create a message in the public chat
- - Send a message in the public chat
- - edit a message in the public chat
- - add a customer to a private chat
- - add a customer to a group chat
- - block a user so their messages don’t pop up
- - I want to either have the order be able to be picked up at the store or have the option for delivery
 
 # Collaborators
 - Geoffrey Blois
