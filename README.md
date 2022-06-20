@@ -1,7 +1,7 @@
 # Project2-API-FRITTTE
 
 # Desctiption
-FRITTTE is a website where users can shop for groceries and communicate with other users through a public, group, or private chat. Users can also leverage this system to get customer support. Users can create an account and log in to create orders for their weekly shop or just chat with other customers to see if there are any deals on. User's data will be persisted when an order is placed, when a user signs up or logs in, and when they add a credit card. Users can chat about deals that they have found while scouring the site or talk about what items are the best bang for the buck. Creating a user, logging in, creating an order and view all of our items will be built on JavaScript React Framework. Will all be deployed and tested via Azure Pipelines CI/CD.
+FRITTTE is a website where users can shop for groceries. When users are search for an item on the site it will desplay the nutrition facts of the item from an exturnal API. Users can create an account and log in to create orders for their weekly shop. User's data will be persisted when an order is placed, when a user signs up or logs in, and when they add a credit card. Admins will be able to search the exturnal API for any item on there database and can add any item they wish. Creating a user, logging in, creating an order and view all of our items will be built on JavaScript React Framework. Will all be deployed and tested via Azure Pipelines CI/CD.
 
  here is the push testing
 # User Stories
