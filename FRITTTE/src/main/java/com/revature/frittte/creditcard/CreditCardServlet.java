@@ -20,7 +20,6 @@ public class CreditCardServlet {
         this.creditCardService = creditCardService;
         this.customerService = customerService;
     }
-
     @CrossOrigin(value = "http://localhost:3000", allowCredentials = "true")
     @PostMapping("/addCreditCard")
     public ResponseEntity<CreditCard> CreateCreditCard(@RequestBody CCInitializer newCreditCard, HttpSession req){

@@ -47,7 +47,7 @@ public class OrderServlet {
         return new ResponseEntity<>(persistedOrder, HttpStatus.CREATED);
 
     }
-
+    @CrossOrigin(value = "http://localhost:3000", allowCredentials = "true")
     @PutMapping("/updateOrder")
     public ResponseEntity<OrderData> updateCustomer(@RequestBody OrderData order) {
         OrderData newOrderData= orderServices.update(order);
