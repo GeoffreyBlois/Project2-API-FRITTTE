@@ -9,5 +9,6 @@ public interface CustomerDao extends CrudRepository <Customer, String>{
     @Query(value = "FROM Customer WHERE username= :username AND password = :password")
     Customer authenticateCustomer(String username, String password);
 
+
 }
 

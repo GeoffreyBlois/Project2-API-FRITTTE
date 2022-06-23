@@ -1,5 +1,5 @@
 package com.revature.frittte.customer;
-
+import com.revature.frittte.customer.CustomerDao;
 import com.revature.frittte.exception.AuthenticationException;
 import com.revature.frittte.exception.InvalidRequestException;
 import com.revature.frittte.exception.ResourcePersistanceException;
@@ -64,7 +64,6 @@ public class CustomerService {
         if(newCustomer.getFname() == null || newCustomer.getFname().trim().equals("")) return false;
         if(newCustomer.getLname() == null || newCustomer.getLname().trim().equals("")) return false;
          return newCustomer.getDob() != null || !newCustomer.getDob().trim().equals("");
-
     }
 
     public Customer authenticateCustomer(String username, String password){
