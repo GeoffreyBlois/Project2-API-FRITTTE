@@ -5,7 +5,7 @@ FRITTTE is a website where users can shop for groceries. When users are search f
 
 # Tech Stack
 
-- Front End
+Front End
 - HTML
 - CSS
 - JavaScript
