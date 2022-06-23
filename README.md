@@ -3,6 +3,26 @@
 # Desctiption
 FRITTTE is a website where users can shop for groceries. When users are search for an item on the site it will desplay the nutrition facts of the item from an exturnal API. Users can create an account and log in to create orders for their weekly shop. User's data will be persisted when an order is placed, when a user signs up or logs in, and when they add a credit card. Admins will be able to search the exturnal API for any item on there database and can add any item they wish. Creating a user, logging in, creating an order and view all of our items will be built on JavaScript React Js. Will all be deployed and tested via Azure Pipelines CI/CD.
 
+# Tech Stack
+
+Front End
+HTML
+CSS
+JavaScript
+ReactJS
+Material UI
+
+Back End
+Java 8
+Junit
+Mockito
+Jackson Library
+Spring Boot
+Hibernate
+Azure SQL
+Azure Apps Service
+Spring
+
 # User Stories
 
 ## As Admin
