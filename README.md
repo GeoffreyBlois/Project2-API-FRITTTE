@@ -5,23 +5,23 @@ FRITTTE is a website where users can shop for groceries. When users are search f
 
 # Tech Stack
 
-Front End
-HTML
-CSS
-JavaScript
-ReactJS
-Material UI
+- Front End
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+- Material UI
 
 Back End
-Java 8
-Junit
-Mockito
-Jackson Library
-Spring Boot
-Hibernate
-Azure SQL
-Azure Apps Service
-Spring
+- Java 8
+- Junit
+- Mockito
+- Jackson Library
+- Spring Boot
+- Hibernate
+- Azure SQL
+- Azure Apps Service
+- Spring
 
 # User Stories
 
